@@ -1,22 +1,14 @@
 <?php
 
 $connect = mysqli_connect(
-
-    getenv('MYSQLHOST'),
-
-    getenv('MYSQLUSER'),
-
-    getenv('MYSQLPASSWORD'),
-
-    getenv('MYSQLDATABASE'),
-
-    getenv('MYSQLPORT')
-
+    'mysql.railway.internal',
+    'mysql://root:FaBlEQjFuVnPMBlASaPtvPhACaJcedNu@mysql.railway.internal:3306/railway',
+    'FaBlEQjFuVnPMBlASaPtvPhACaJcedNu',
+    'railway',
+    3306
 );
 
 if (!$connect) {
-
     die('Error connect to DataBase');
-
 }
 ?>
