@@ -56,7 +56,7 @@ if (
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/img/favicon2.ico" type="image/x-icon">
-    <title>Сервисный центр Докторноутбукoof</title>
+    <title>Сервисный центр Докторноутбукoff</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
