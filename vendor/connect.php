@@ -1,14 +1,20 @@
 <?php
 
+$host = getenv('mysql.railway.internal');
+$user = getenv('railway');
+$password = getenv('FaBlEQjFuVnPMBlASaPtvPhACaJcedNu');
+$database = getenv('FaBlEQjFuVnPMBlASaPtvPhACaJcedNu@mysql.railway.internal:3306/railway');
+$port = getenv('3306');
+
 $connect = mysqli_connect(
-    'mysql.railway.internal',
-    'mysql://root:FaBlEQjFuVnPMBlASaPtvPhACaJcedNu@mysql.railway.internal:3306/railway',
-    'FaBlEQjFuVnPMBlASaPtvPhACaJcedNu',
-    'railway',
-    3306
+    $host,
+    $user,
+    $password,
+    $database,
+    $port
 );
 
 if (!$connect) {
-    die('Error connect to DataBase');
+    die('Error connect to DataBase: ' . mysqli_connect_error());
 }
 ?>
