@@ -1,7 +1,22 @@
 <?php
 
-    $connect = mysqli_connect('localhost', 'root', '', 'bd');
+$connect = mysqli_connect(
 
-    if (!$connect) {
-        die('Error connect to DataBase');
-    }
+    getenv('MYSQLHOST'),
+
+    getenv('MYSQLUSER'),
+
+    getenv('MYSQLPASSWORD'),
+
+    getenv('MYSQLDATABASE'),
+
+    getenv('MYSQLPORT')
+
+);
+
+if (!$connect) {
+
+    die('Error connect to DataBase');
+
+}
+?>
