@@ -284,7 +284,7 @@ if (
 
     </section>
 
-    <section class="about" id="about">
+    <section class="about" id="prices">
 
         <div class="container">
 
