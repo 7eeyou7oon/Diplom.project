@@ -19,7 +19,9 @@ session_start();
 
     <!-- Форма авторизации -->
     <div id="img">
-        <img src="img/doktornoutbukoff.svg" alt="doktornoutbukoff" width="170px">
+        <a href="./index.php">
+            <img src="img/doktornoutbukoff.svg" alt="doktornoutbukoff" width="170px">
+        </a>
     </div>
     <div class="container">
         <div class="YellowBg">
