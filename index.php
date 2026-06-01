@@ -185,11 +185,13 @@ if (
                 </div>
 
                 <div class="block">
-                    <a href="https://2gis.kz/pavlodar/firm/70000001018639188/76.936811%2C52.27856?floor=1&m=76.93688%2C52.278468%2F18.65"
-                        target="_blank" style="text-decoration:none;color:inherit;">
+                    
                         <div class="info__item">
                             <div class="info__img">
+                                <a href="https://2gis.kz/pavlodar/firm/70000001018639188/76.936811%2C52.27856?floor=1&m=76.93688%2C52.278468%2F18.65"
+                        target="_blank" style="text-decoration:none;color:inherit;"></a>
                                 <img src="img/pin.svg" alt="">
+                                </a>
                             </div>
                             <h4 class="info__title">
                                 Мы на карте
@@ -199,7 +201,7 @@ if (
                             </p>
 
                         </div>
-                    </a>
+                    
                 </div>
 
             </div>
