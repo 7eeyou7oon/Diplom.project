@@ -75,8 +75,8 @@ h6 {
 }
 
 .header.scrolled {
-    backdrop-filter: blur(18px) saturate(180%);
-    -webkit-backdrop-filter: blur(18px) saturate(180%);
+    backdrop-filter: blur(30px) saturate(100%);
+    -webkit-backdrop-filter: blur(30px) saturate(100%);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
 }
 
@@ -170,6 +170,11 @@ h6 {
     font-weight: bold;
     font-size: 14px;
     transition: border-color 0.35s ease;
+}
+
+.header.scrolled .header__button-link.login {
+    background-color: #00a3ff;
+    color: white;
 }
 
 .header__button-link.login:hover {
