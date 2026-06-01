@@ -185,19 +185,21 @@ if (
                 </div>
 
                 <div class="block">
-                    <div class="info__item">
-                        <a href="https://2gis.kz/pavlodar/firm/70000001018639188/76.936811%2C52.27856?floor=1&m=76.93688%2C52.278468%2F18.65" target="_blank" style="text-decoration:none;color:inherit;">
-                        <div class="info__img">
-                            <img src="img/pin.svg" alt="">
+                    <a href="https://2gis.kz/pavlodar/firm/70000001018639188/76.936811%2C52.27856?floor=1&m=76.93688%2C52.278468%2F18.65"
+                        target="_blank" style="text-decoration:none;color:inherit;">
+                        <div class="info__item">
+                            <div class="info__img">
+                                <img src="img/pin.svg" alt="">
+                            </div>
+                            <h4 class="info__title">
+                                Мы на карте
+                            </h4>
+                            <p class="info__text">
+                                Г.Павлодар, Ак.Сатпаева 27
+                            </p>
+
                         </div>
-                        <h4 class="info__title">
-                            Мы на карте
-                        </h4>
-                        <p class="info__text">
-                            Г.Павлодар, Ак.Сатпаева 27
-                        </p>
-                        </a>
-                    </div>
+                    </a>
                 </div>
 
             </div>
@@ -555,7 +557,8 @@ if (
 
                     <div class="form__group">
 
-                        <textarea class="textarea" name="message" id="message" placeholder="можете указать марку и модель ноутбука"></textarea>
+                        <textarea class="textarea" name="message" id="message"
+                            placeholder="можете указать марку и модель ноутбука"></textarea>
 
                         <label for="message" class="label">
                             Сообщение
@@ -838,48 +841,46 @@ if (
     };
 
     const form =
-    document.getElementById('contactForm');
+        document.getElementById('contactForm');
 
-const resultBlock =
-    document.getElementById('formResult');
+    const resultBlock =
+        document.getElementById('formResult');
 
-form.addEventListener('submit', async function(e) {
+    form.addEventListener('submit', async function(e) {
 
-    e.preventDefault();
+        e.preventDefault();
 
-    const formData = new FormData(form);
+        const formData = new FormData(form);
 
-    try {
+        try {
 
-        const response = await fetch(
-            'create_order.php',
-            {
-                method: 'POST',
-                body: formData
-            }
-        );
+            const response = await fetch(
+                'create_order.php', {
+                    method: 'POST',
+                    body: formData
+                }
+            );
 
-        const result = await response.text();
+            const result = await response.text();
 
-        resultBlock.innerHTML =
-            '✅ Заявка успешно отправлена!<br>Мы свяжемся с вами в ближайшее время.';
+            resultBlock.innerHTML =
+                '✅ Заявка успешно отправлена!<br>Мы свяжемся с вами в ближайшее время.';
 
-        resultBlock.className =
-            'form-result success';
+            resultBlock.className =
+                'form-result success';
 
-        form.reset();
+            form.reset();
 
-    } catch(error) {
+        } catch (error) {
 
-        resultBlock.innerHTML =
-            '❌ Ошибка отправки заявки';
+            resultBlock.innerHTML =
+                '❌ Ошибка отправки заявки';
 
-        resultBlock.className =
-            'form-result error';
-    }
+            resultBlock.className =
+                'form-result error';
+        }
 
-});
-
+    });
     </script>
 
 </body>
