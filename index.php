@@ -67,7 +67,7 @@ if (
             <div class="header__wrapper">
                 <div class="header__block">
                     <a href="/" class="header__logo">
-                        <img src="img/logo 1.png" alt="Докторноутбукoof">
+                        <img src="img/logo 1.png" alt="Доктор ноутбукoff">
                     </a>
                 </div>
                 <nav class="nav">
@@ -186,7 +186,7 @@ if (
 
                 <div class="block">
                     <div class="info__item">
-                        <a href="https://2gis.kz/pavlodar/firm/70000001018639188/76.936811%2C52.27856?floor=1&m=76.93688%2C52.278468%2F18.65" target="_blank">
+                        <a href="https://2gis.kz/pavlodar/firm/70000001018639188/76.936811%2C52.27856?floor=1&m=76.93688%2C52.278468%2F18.65" target="_blank" style="text-decoration:none;color:inherit;">
                         <div class="info__img">
                             <img src="img/pin.svg" alt="">
                         </div>
@@ -196,6 +196,7 @@ if (
                         <p class="info__text">
                             Г.Павлодар, Ак.Сатпаева 27
                         </p>
+                        </a>
                     </div>
                 </div>
 
