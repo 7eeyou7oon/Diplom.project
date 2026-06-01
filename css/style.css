@@ -12,6 +12,14 @@ html {
     padding: 0;
 }
 
+/* Плавный переход к якорям с учетом фиксированной шапки */
+
+#about,
+#services,
+#prices,
+#contacts {
+    scroll-margin-top: 120px;
+}
 
 body {
     margin: 0;
