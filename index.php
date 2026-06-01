@@ -157,17 +157,19 @@ if (
         <div class="container">
             <div class="wrapper">
                 <div class="block">
-                    <div class="info__item">
-                        <div class="info__img">
-                            <img src="img/phone.svg" alt="">
+                    <a href="tel:+77477776190" style="text-decoration: none; color: inherit;">
+                        <div class="info__item">
+                            <div class="info__img">
+                                <img src="img/phone.svg" alt="">
+                            </div>
+                            <h4 class="info__title">
+                                +7(747)777-61-90
+                            </h4>
+                            <p class="info__text">
+                                Бесплатный звонок нам
+                            </p>
                         </div>
-                        <h4 class="info__title">
-                            Позвонить +7(747)777-61-90
-                        </h4>
-                        <p class="info__text">
-                            Бесплатный звонок нам
-                        </p>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="block">
@@ -186,7 +188,7 @@ if (
 
                 <div class="block">
                     <a href="https://2gis.kz/pavlodar/firm/70000001018639188/76.936811%2C52.27856?floor=1&m=76.93688%2C52.278468%2F18.65"
-                        target="_blank" style="text-decoration:none;color:inherit;">
+                        target="_blank" style="text-decoration: none; color: inherit;">
                         <div class="info__item">
                             <div class="info__img">
                                 <img src="img/pin.svg" alt="">
