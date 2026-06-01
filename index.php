@@ -173,17 +173,19 @@ if (
                 </div>
 
                 <div class="block">
-                    <div class="info__item">
-                        <div class="info__img">
-                            <img src="img/calendar.svg" alt="">
+                    <a href="#contacts" style="text-decoration: none; color: inherit;">
+                        <div class="info__item">
+                            <div class="info__img">
+                                <img src="img/calendar.svg" alt="">
+                            </div>
+                            <h4 class="info__title">
+                                Оставить заявку
+                            </h4>
+                            <p class="info__text">
+                                Бесплатная диагностика
+                            </p>
                         </div>
-                        <h4 class="info__title">
-                            Оставить заявку
-                        </h4>
-                        <p class="info__text">
-                            Бесплатная диагностика
-                        </p>
-                    </div>
+                    </a>
                 </div>
 
                 <div class="block">
