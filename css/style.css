@@ -54,10 +54,17 @@ h1,h2,h3,h4,h5,h6 {
 /* Header start */
 .header {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 1000;
+
+    transition: .3s ease;
+}
+
+.header.scrolled {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
 }
 
 .header__wrapper {
@@ -572,39 +579,6 @@ h1,h2,h3,h4,h5,h6 {
         0 14px 30px rgba(219,37,18,0.38);
 }
 
-/* ===== MOBILE ===== */
-
-@media (max-width: 768px) {
-
-    .about {
-
-        padding: 80px 15px;
-    }
-
-    .about__title {
-
-        font-size: 42px;
-    }
-
-    .about__subtitle {
-
-        font-size: 20px;
-    }
-
-    .about__table th {
-
-        font-size: 16px;
-
-        padding: 18px 10px;
-    }
-
-    .about__table td {
-
-        font-size: 15px;
-
-        padding: 16px 12px;
-    }
-}
 /* about end */
 
 /* ===== SERVICE ICON ===== */
@@ -1301,43 +1275,6 @@ h1,h2,h3,h4,h5,h6 {
 .favorites-content::-webkit-scrollbar-thumb {
     background: rgba(0,177,211,0.5);
     border-radius: 20px;
-}
-
-/* ===== MOBILE ===== */
-
-@media (max-width: 768px) {
-
-    .favorites-content {
-        padding: 20px;
-        border-radius: 24px;
-    }
-
-    .favorites-header h2 {
-        font-size: 34px;
-    }
-
-    .favorite-service {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .favorite-service-left {
-        width: 100%;
-    }
-
-    .favorite-buttons {
-        width: 100%;
-        justify-content: stretch;
-    }
-
-    .favorite-buttons a,
-    .remove-service {
-        width: 100%;
-    }
-
-    .favorite-info h3 {
-        font-size: 28px;
-    }
 }
 
 /*footer end*/
