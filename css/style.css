@@ -67,6 +67,8 @@ h6 {
 }
 
 .header.scrolled {
+     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.753);
     box-shadow: 0 2px 15px rgba(0, 0, 0, .1);
 }
