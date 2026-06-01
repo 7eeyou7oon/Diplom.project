@@ -56,7 +56,7 @@ if (
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/img/favicon2.ico" type="image/x-icon">
-    <title>Сервисный центр Докторноутбукoff</title>
+    <title>Доктор ноутбукoff</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -67,7 +67,7 @@ if (
             <div class="header__wrapper">
                 <div class="header__block">
                     <a href="/" class="header__logo">
-                        <img src="img/logo 1.png" alt="Сервисный центр Докторноутбукoof">
+                        <img src="img/logo 1.png" alt="Доктор ноутбукoof">
                     </a>
                 </div>
                 <nav class="nav">
@@ -162,7 +162,7 @@ if (
                             <img src="img/phone.svg" alt="">
                         </div>
                         <h4 class="info__title">
-                            Позвонить 222-222-222
+                            Позвонить +7 (747) 777-61-90
                         </h4>
                         <p class="info__text">
                             Бесплатный звонок нам
@@ -186,6 +186,7 @@ if (
 
                 <div class="block">
                     <div class="info__item">
+                        <a href="https://2gis.kz/pavlodar/firm/70000001018639188/76.936811%2C52.27856?floor=1&m=76.93688%2C52.278468%2F18.65" target="_blank">
                         <div class="info__img">
                             <img src="img/pin.svg" alt="">
                         </div>
