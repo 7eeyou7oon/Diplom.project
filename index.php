@@ -67,7 +67,7 @@ if (
             <div class="header__wrapper">
                 <div class="header__block">
                     <a href="/" class="header__logo">
-                        <img src="img/logo 1.png" alt="Доктор ноутбукoof">
+                        <img src="img/logo 1.png" alt="Докторноутбукoof">
                     </a>
                 </div>
                 <nav class="nav">
